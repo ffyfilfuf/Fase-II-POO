@@ -24,6 +24,8 @@ git config --global user.name "Arthur de Oliveira"
 
 git config --global user.email "arthur.o08@aluno.ifsc.edu.br"
 
+git config --global alias.tree "log --oneline --graph --decorate --all"
+
 git commit -m "mensagem para o commit"
 
 git checkout
