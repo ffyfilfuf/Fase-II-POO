@@ -26,6 +26,8 @@ git config --global user.email "arthur.o08@aluno.ifsc.edu.br"
 
 git config --global alias.tree "log --oneline --graph --decorate --all"
 
+git config --global credential.helper 'cache --timeout=3600'
+
 git commit -m "mensagem para o commit"
 
 git remote add origin https://github.com/ffyfilfuf/Fase-II-POO.git
