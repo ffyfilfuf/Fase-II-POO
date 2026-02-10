@@ -28,6 +28,9 @@ git config --global alias.tree "log --oneline --graph --decorate --all"
 
 git commit -m "mensagem para o commit"
 
+git remote add origin https://github.com/ffyfilfuf/Fase-II-POO.git
+
+
 git checkout
 ```
 
